@@ -1,11 +1,42 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
+    <meta charset="utf-8" />
     <title>Data Lovers</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <header class="header-container">
+      <img src="./assets/logos/logo.png" alt="masseffect-logo" />
+    </header>
+    <section class="filter-section">
+      <div class="filter-by">
+        <p>Filter By:</p>
+        <select name="filter-by" id="filter-by">
+          <option value="">None</option>
+          <option value="species">Species</option>
+          <option value="skills">Skills</option>
+          <option value="serie">Serie</option>
+        </select>
+      </div>
+      <div class="filter-name">
+        <p>Sort by name:</p>
+        <select name="filter-name" id="filter-name">
+          <option value="az">A-Z</option>
+          <option value="za">Z-A</option>
+        </select>
+      </div>
+      <div class="search-bar-container">
+        <input type="text" class="searchBar" placeholder="Enter a Name" id="seeker"/>
+        <button id="search" class="btnSearch"><img src="./assets/logos/lupa.png" alt="lupa" class="search-icon" height="12px"></button>
+      </div>
+    </section>
+    <section>
+      <div class="cards-container"></div>
+    </section>
+    <footer class="footer-container">
+      <p>©All rights reserved Bioware and Electronic Arts Inc. 2023</p>
+    </footer>
     <script src="main.js" type="module"></script>
   </body>
 </html>

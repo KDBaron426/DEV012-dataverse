@@ -1,0 +1,45 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #1E1E1E;
+}
+
+/* HEADER */
+.header-container{
+    background-color: #DA1717;
+    padding: 0.6rem 2rem;
+}
+
+.header-container img{
+    height: 40px;
+}
+
+/* FILTER SECTION */
+
+.filter-section{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    background: #eb2323;
+}
+
+.filter-by,
+.filter-name,
+.search-bar-container{
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+}
+
+/* FOOTER */
+
+.footer-container{
+    background-color: #DA1717;
+    color: white;
+    padding: 0.6rem 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    bottom: 0;
+}

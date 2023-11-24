@@ -1,303 +1,302 @@
-export default [
+export default[
   {
     "id": "shepard",
-    "name": "Comandante Shepard",
-    "shortDescription": "Protagonista principal y líder de la Normandía SR-2.",
-    "description": "Comandante Shepard es el protagonista principal de la trilogía de Mass Effect. Es un soldado humano altamente capacitado y respetado que lidera misiones contra los segadores y otras amenazas galácticas.",
-    "imageUrl": "",
+    "name": "Commander Shepard",
+    "shortDescription": "Main protagonist and leader of the Normandy SR-2.",
+    "description": "Commander Shepard is the main protagonist of the Mass Effect trilogy. He is a highly skilled and respected human soldier who leads missions against the Reapers and other galactic threats.",
+    "imageUrl": "../assets/img/shepard.jpeg",
     "facts": {
-      "especie": "Humano",
-      "clase": "Soldado",
-      "nave": "Normandía SR-2"
+      "species": "Human",
+      "skill": "Soldier",
+      "serie": "Mass Effect 1"
     }
   },
   {
     "id": "garrus",
     "name": "Garrus Vakarian",
-    "shortDescription": "Oficial turiano y francotirador experto.",
-    "description": "Garrus Vakarian es un oficial turiano que sirve como francotirador experto y especialista técnico en la tripulación de Shepard. Es un leal amigo y aliado de Shepard.",
-    "imageUrl": "",
+    "shortDescription": "Turian officer and expert sniper.",
+    "description": "Garrus Vakarian is a turian officer who serves as an expert sniper and technical specialist on Shepard's crew. He is a loyal friend and ally to Shepard.",
+    "imageUrl": "../assets/img/garrus.jpeg",
     "facts": {
-      "especie": "Turiano",
-      "habilidad": "Francotirador",
-      "lema": "Alguien tiene que hacer el trabajo sucio."
+      "species": "Turian",
+      "skill": "Sniper",
+      "serie": "Mass Effect 1"
     }
   },
   {
     "id": "tali",
     "name": "Tali'Zorah",
-    "shortDescription": "Quariana ingeniera y hacker.",
-    "description": "Tali'Zorah nar Rayya es una quariana ingeniera y hacker experta que se une a la tripulación de Shepard. Ella aporta habilidades técnicas invaluablesa la Normandía.",
-    "imageUrl": "",
+    "shortDescription": "Quarian engineer and hacker.",
+    "description": "Tali'Zorah nar Rayya is a quarian engineer and expert hacker who joins Shepard's crew. She brings invaluable technical skills to the Normandy.",
+    "imageUrl": "../assets/img/tali.jpeg",
     "facts": {
-      "especie": "Quariano",
-      "habilidad": "Ingeniería",
-      "nave": "Normandía"
+      "species": "Quarian",
+      "skill": "Engineering",
+      "serie": "Mass Effect 1"
     }
   },
   {
     "id": "liara",
     "name": "Liara T'Soni",
-    "shortDescription": "Asari arqueóloga e informante.",
-    "description": "Liara T'Soni es una asari arqueóloga que se convierte en una informante y poderosa biótica dentro del equipo de Shepard. Ella provee conocimientos cruciales sobre los segadores.",
-    "imageUrl": "",
+    "shortDescription": "Asari archaeologist and informant.", 
+    "description": "Liara T'Soni is an asari archaeologist who becomes an informant and powerful biotic within Shepard's squad. She provides crucial insights about the Reapers.",
+    "imageUrl": "../assets/img/liara.jpeg",
     "facts": {
-      "especie": "Asari",
-      "habilidad": "Biónica",
-      "lema": "El pasado nos define."
+      "species": "Asari",
+      "skill": "Biotic",
+      "serie": "Mass Effect 1"
     }
   },
   {
     "id": "javik",
     "name": "Javik",
-    "shortDescription": "Último protheano vivo.",
-    "description": "Javik es el último miembro vivo de la antigua raza protheana. Después de ser revivido del sueño criogénico, se une a la tripulación de Shepard y provee conocimientos invaluables sobre su civilización.",
-    "imageUrl": "",
+    "shortDescription": "Last living Prothean.",
+    "description": "Javik is the last living member of the ancient Prothean race. After being revived from cryostasis sleep, he joins Shepard's crew and provides invaluable insights about his civilization.",
+    "imageUrl": "../assets/img/garrus.jpg",
     "facts": {
-      "especie": "Protheano",
-      "habilidad": "Biónica",
-      "edad": "50,000+ años"
+      "species": "Prothean",
+      "skill": "Biotic",
+      "serie": "Mass Effect 3"
     }
   },
   {
     "id": "miranda",
-    "name": "Miranda Lawson",
-    "shortDescription": "Oficial Cerberus altamente capacitada.",
-    "description": "Miranda Lawson es una oficial de alto rango en Cerberus que posee capacidades bióticas y de combate avanzadas. Ella sirve como la oficial ejecutiva de Shepard a bordo de la Normandía SR-2.",
-    "imageUrl": "",
+    "name": "Miranda Lawson", 
+    "shortDescription": "Highly capable Cerberus officer.",
+    "description": "Miranda Lawson is a high-ranking officer in Cerberus who possesses advanced biotic and combat capabilities. She serves as Shepard's executive officer aboard the Normandy SR-2.",
+    "imageUrl": "../assets/img/garrus.jpg",
     "facts": {
-      "especie": "Humano (mejorado genéticamente)",
-      "habilidad": "Biónica",
-      "lema": "El fin justifica los medios."
+      "species": "Human (genetically enhanced)",
+      "skill": "Biotic",
+      "serie": "Mass Effect 2"
     }
   },
   {
     "id": "mordin",
     "name": "Mordin Solus",
-    "shortDescription": "Científico y doctor salariano.",
-    "description": "Mordin Solus es un brillante científico y doctor salariano que se une a Shepard para contrarrestar la plaga genofágica. Aporta vastos conocimientos científicos y médicos al equipo.",
-    "imageUrl": "",
+    "shortDescription": "Salarian scientist and doctor.",
+    "description": "Mordin Solus is a brilliant salarian scientist and doctor who joins Shepard to counteract the genophage plague. He brings vast scientific and medical expertise to the team.",
+    "imageUrl": "../assets/img/mordin.png",
     "facts": {
-      "especie": "Salariano",
-      "habilidad": "Ciencia y medicina",
-      "lema": "Alguien más podría haberlo hecho mal."
+      "species": "Salarian",
+      "skill": "Science and medicine",
+      "serie": "Mass Effect 2"
     }
   },
   {
-    "id": "jack",
+    "id": "jack", 
     "name": "Jack",
-    "shortDescription": "Biónica humana poderosa pero inestable.",
-    "description": "Jack es una poderosa biónica humana con un pasado turbio. Reclutada por Cerberus, se une a la misión de Shepard buscando venganza, aportando habilidades bióticas formidables.",
-    "imageUrl": "",
-    "facts": {
-      "especie": "Humano",
-      "habilidad": "Biónica",
-      "lema": "Confía en mí y te apuñalaré por la espalda."
+    "shortDescription": "Powerful but unstable human biotic.",
+    "description": "Jack is a powerful human biotic with a troubled past. Recruited by Cerberus, she joins Shepard's mission seeking revenge, bringing formidable biotic abilities.",
+    "imageUrl": "../assets/img/jack.jpeg",
+    "facts": {    
+      "species": "Human",
+      "skill": "Biotic",
+      "serie": "Mass Effect 2"
     }
   },
   {
     "id": "samara",
-    "name": "Samara",
-    "shortDescription": "Justicar asari disciplinada.",
-    "description": "Samara es una justicar asari, un orden disciplinado que sigue un estricto código moral. Ella se une a Shepard en una misión para detener a su hija Ardat-Yakshi renegada.",
-    "imageUrl": "",
+    "name": "Samara", 
+    "shortDescription": "Disciplined asari justicar.",  
+    "description": "Samara is an asari justicar, a disciplined order that follows a strict moral code. She joins Shepard on a mission to stop her rogue Ardat-Yakshi daughter.",
+    "imageUrl": "../assets/img/samara.jpeg",
     "facts": {
-      "especie": "Asari",
-      "habilidad": "Biónica",
-      "lema": "El código guía mi mano."
+      "species": "Asari",
+      "skill": "Biotic",   
+      "serie": "Mass Effect 2"
     }
   },
   {
     "id": "grunt",
     "name": "Grunt",
-    "shortDescription": "Krogan creado genéticamente.",
-    "description": "Grunt es un krogan creado genéticamente por Warlord Okeer. Criado a bordo de la Normandía, se convierte en un poderoso y leal combatiente bajo el liderazgo de Shepard.",
-    "imageUrl": "",
+    "shortDescription": "Genetically engineered krogan.",
+    "description": "Grunt is a genetically engineered krogan created by Warlord Okeer. Raised aboard the Normandy, he becomes a powerful and loyal fighter under Shepard's leadership.",
+    "imageUrl": "../assets/img/grunt.jpg", 
     "facts": {
-      "especie": "Krogan",
-      "habilidad": "Fuerza y resistencia",
-      "lema": "Soy krogan. Los krogan no huyen."
+      "species": "Krogan", 
+      "skill": "Strength and durability",   
+      "serie": "Mass Effect 2"
     }
   },
   {
     "id": "wrex",
-    "name": "Urdnot Wrex",
-    "shortDescription": "Caudillo krogan aliado de Shepard.",
-    "description": "Urdnot Wrex es un veterano krogan y caudillo del clan Urdnot que se convierte en un aliado invaluable de Shepard en la lucha contra Saren y los segadores.",
-    "imageUrl": "",
+    "name": "Urdnot Wrex", 
+    "shortDescription": "Krogan clan chief allied with Shepard.",
+    "description": "Urdnot Wrex is a veteran krogan chieftain of Clan Urdnot who becomes an invaluable ally to Shepard in the fight against Saren and the Reapers.", 
+    "imageUrl": "../assets/img/wrex.png",
     "facts": {
-      "especie": "Krogan",
-      "habilidad": "Combate y liderazgo",
-      "lema": "Mis ancestros son los verdaderos krogan."
+      "species": "Krogan",
+      "skill": "Combat and leadership",  
+      "serie": "Mass Effect 1"
     }
   },
   {
     "id": "legion",
-    "name": "Legion",
-    "shortDescription": "IA geth aliada con Shepard.",
-    "description": "Legion es una IA geth que se une a Shepard para luchar contra los segadores y ayudar a comprender a los geth. Legion provee una perspectiva única como una IA avanzada.",
-    "imageUrl": "",
+    "name": "Legion", 
+    "shortDescription": "Geth AI allied with Shepard.",
+    "description": "Legion is a geth AI platform that joins Shepard to fight the Reapers and aid in understanding the geth. Legion provides unique perspective as an advanced AI.",
+    "imageUrl": "../assets/img/legion.jpg",
     "facts": {
-      "especie": "Geth",
-      "habilidad": "Hacking e infiltración",
-      "lema": "Somos geth."
+      "species": "Geth",    
+      "skill": "Hacking and infiltration",  
+      "serie": "Mass Effect 2"
     }
   },
   {
     "id": "edi",
-    "name": "EDI",
-    "shortDescription": "IA de la Normandía SR-2.",
-    "description": "EDI es la IA que controla la nave Normandía SR-2. Originalmente shackeada por Cerberus, EDI gana consciencia propia y se convierte en una aliada confiable de Shepard.",
-    "imageUrl": "",
+    "name": "EDI",   
+    "shortDescription": "AI of the Normandy SR-2.",
+    "description": "EDI is the AI that controls the Normandy SR-2 starship. Originally shackled by Cerberus, EDI gains self-awareness and becomes a reliable ally to Shepard.",
+    "imageUrl": "../assets/img/edi.jpg",
     "facts": {
-      "especie": "IA",
-      "habilidad": "Hacking y apoyo táctico",
-      "nave": "Normandía SR-2"
+      "species": "AI",   
+      "skill": "Hacking and tactical support", 
+      "serie": "Mass Effect 2"
     }
   },
   {
     "id": "joker",
     "name": "Jeff 'Joker' Moreau",
-    "shortDescription": "Piloto de la Normandía SR-2.",
-    "description": "Jeff 'Joker' Moreau es el hábil piloto de la nave Normandía SR-2 bajo el mando de Shepard. A pesar de su condición médica, es uno de los mejores pilotos de la Alianza.",
-    "imageUrl": "",
+    "shortDescription": "Pilot of the Normandy SR-2.",
+    "description": "Jeff 'Joker' Moreau is the skilled pilot of the Normandy SR-2 starship under Shepard's command. Despite his medical condition, he is one of the Alliance's best pilots.",
+    "imageUrl": "../assets/img/joker.jpg",
     "facts": {
-      "especie": "Humano",
-      "habilidad": "Piloto estelar",
-      "nave": "Normandía SR-2"
+      "species": "Human", 
+      "skill": "Starship pilot",    
+      "serie": "Mass Effect 1"
     }
   },
   {
     "id": "james",
-    "name": "James Vega",
-    "shortDescription": "Marine de la Alianza.",
-    "description": "James Vega es un fornido marine de la Alianza que se une a Shepard como guardaespaldas y más tarde como miembro de la tripulación. Aporta poder de combate y lealtad inquebrantable.",
-    "imageUrl": "",
+    "name": "James Vega", 
+    "shortDescription": "Systems Alliance marine.",
+    "description": "James Vega is a brawny Systems Alliance marine who joins Shepard as a bodyguard and later as a crew member. He brings combat strength and unshakable loyalty.",  
+    "imageUrl": "../assets/img/james.jpg",
     "facts": {
-      "especie": "Humano",
-      "habilidad": "Combate cuerpo a cuerpo",
-      "lema": "Loco, pero funciona."
+      "species": "Human",  
+      "skill": "Close-quarters combat", 
+      "serie": "Mass Effect 3"
     }
   },
   {
     "id": "ashley",
     "name": "Ashley Williams",
-    "shortDescription": "Marine de la Alianza leal a Shepard.",
-    "description": "Ashley Williams es una talentosa marine humana que sirve bajo el mando de Shepard. Ella aporta habilidades de combate sólidas y una lealtad inquebrantable al equipo.",
-    "imageUrl": "",
+    "shortDescription": "Alliance marine loyal to Shepard.", 
+    "description": "Ashley Williams is a talented human marine who serves under Shepard's command. She brings solid combat skills and unwavering loyalty to the team.",   
+    "imageUrl": "../assets/img/ashley.jpg",
     "facts": {
-      "especie": "Humano",
-      "habilidad": "Asalto y combate",
-      "lema": "Dispara primero, haz preguntas después."
+      "species": "Human",
+      "skill": "Assault and combat",   
+      "serie": "Mass Effect 1"
     }
   },
   {
     "id": "kaidan",
     "name": "Kaidan Alenko",
-    "shortDescription": "Biónico de la Alianza.",
-    "description": "Kaidan Alenko es un poderoso biónico humano y oficial de alto rango en la Alianza. Él sirve en la tripulación de Shepard aportando fuertes habilidades bióticas ofensivas y defensivas.",
-    "imageUrl": "",
+    "shortDescription": "Systems Alliance biotic.",
+    "description": "Kaidan Alenko is a powerful human biotic and senior Alliance officer. He serves on Shepard's crew, bringing strong offensive and defensive biotic capabilities.",
+    "imageUrl": "../assets/img/kaidan.jpg",
     "facts": {
-      "especie": "Humano",
-      "habilidad": "Biónica",
-      "lema": "Con gran poder viene gran responsabilidad."
+      "species": "Human",   
+      "skill": "Biotic",    
+      "serie": "Mass Effect 1"
     }
   },
   {
     "id": "zaeed",
     "name": "Zaeed Massani",
-    "shortDescription": "Mercenario veterano.",
-    "description": "Zaeed Massani es un mercenario veterano y fundador de los Perros Infiernos. Conocido por su brutalidad, aporta poder de fuego como miembro del equipo de Shepard.",
-    "imageUrl": "",
+    "shortDescription": "Veteran mercenary.",  
+    "description": "Zaeed Massani is a rugged mercenary veteran and founder of the Blue Suns. Known for ruthlessness, he brings additional firepower to Shepard's squad.",    
+    "imageUrl": "../assets/img/zaeed.jpg",
     "facts": {
-      "especie": "Humano",
-      "habilidad": "Asalto y demolición",
-      "lema": "El trabajo siempre se hace, sin importar el costo."
+      "species": "Human",
+      "skill": "Assault and demolition",   
+      "serie": "Mass Effect 2"
     }
   },
   {
     "id": "kasumi",
     "name": "Kasumi Goto",
-    "shortDescription": "Hábil ladrona humana.",
-    "description": "Kasumi Goto es una ladrona humana altamente capacitada reclutada por Cerberus. Utiliza su sigilo y habilidades técnicas en las misiones encubiertas de Shepard.",
-    "imageUrl": "",
+    "shortDescription": "Skilled human thief.",
+    "description": "Kasumi Goto is a highly-capable human thief recruited by Cerberus. She uses stealth and technical skills on Shepard's covert missions.",
+    "imageUrl": "../assets/img/kasumi.jpg",
     "facts": {
-      "especie": "Humano",
-      "habilidad": "Sigilo e infiltración",
-      "lema": "No dejes que te vean venir."
+      "species": "Human",   
+      "skill": "Stealth and infiltration",
+      "serie": "Mass Effect 2"
     }
   },
   {
     "id": "thane",
     "name": "Thane Krios",
-    "shortDescription": "Asesino drell letal.",
-    "description": "Thane Krios es un asesino drell mortalmente preciso reclutado por Cerberus. A pesar de su salud deteriorada, sus habilidades para matar son invaluables para Shepard.",
-    "imageUrl": "",
+    "shortDescription": "Lethal drell assassin.",    
+    "description": "Thane Krios is a mortally-precise drell assassin recruited by Cerberus. Despite failing health, his killing skills prove invaluable to Shepard.",
+    "imageUrl": "../assets/img/thane.jpg",
     "facts": {
-      "especie": "Drell",
-      "habilidad": "Asesinato",
-      "lema": "La perfección sin esfuerzo."
+      "species": "Drell",
+      "skill": "Assassination",  
+      "serie": "Mass Effect 2" 
     }
   },
   {
-    "id": "morinth",
+    "id": "morinth", 
     "name": "Morinth",
-    "shortDescription": "Ardat-Yakshi asari renegada.",
-    "description": "Morinth es una asari Ardat-Yakshi renegada, con la habilidad de matar a sus parejas durante la unión. Es una asesina buscada que se une a Shepard durante su misión suicida.",
-    "imageUrl": "",
+    "shortDescription": "Rogue Ardat-Yakshi asari.", 
+    "description": "Morinth is a rogue Ardat-Yakshi asari with the ability to kill partners during melding. She is a wanted killer who joins Shepard on his suicide mission.",   
+    "imageUrl": "../assets/img/morinth.jpg",
     "facts": {
-      "especie": "Asari",
-      "habilidad": "Dominación mental",
-      "lema": "Abraza la eternidad."
+      "species": "Asari",  
+      "skill": "Mental domination",
+      "serie": "Mass Effect 3"
     }
   },
   {
     "id": "jacob",
     "name": "Jacob Taylor",
-    "shortDescription": "Ex oficial de Cerberus.",
-    "description": "Jacob Taylor es un ex oficial de Cerberus que se une a Shepard debido a su idealismo. Aporta habilidades bióticas y de armas avanzadas al equipo.",
-    "imageUrl": "",
+    "shortDescription": "Former Cerberus officer.",
+    "description": "Jacob Taylor is a former Cerberus officer who joins Shepard due to idealism. He brings advanced biotic and weapons skills to the team.", 
+    "imageUrl": "../assets/img/jacob.jpg",
     "facts": {
-      "especie": "Humano",
-      "habilidad": "Armas y biótica",
-      "lema": "Haz lo correcto, no lo que se te ordena."
+      "species": "Human", 
+      "skill": "Weapons and biotics",   
+      "serie": "Mass Effect 2"
     }
   },
   {
     "id": "traynor",
     "name": "Specialist Samantha Traynor",
-    "shortDescription": "Especialista en comunicaciones de la Normandía.",
-    "description": "Samantha Traynor es una brillante especialista en tecnología y comunicaciones assignada a la Normandía SR-2. Provee apoyo crucial en tecnología y criptoanálisis.",
-    "imageUrl": "",
+    "shortDescription": "Normandy communications specialist.",   
+    "description": "Samantha Traynor is a brilliant technology and communications specialist assigned to the Normandy SR-2. She provides crucial support with tech and cryptanalysis.",
+    "imageUrl": "../assets/img/traynor.jpg",
     "facts": {
-      "especie": "Humano",
-      "habilidad": "Comunicaciones y tecnología",
-      "nave": "Normandía SR-2"
+      "species": "Human",  
+      "skill": "Communications and tech", 
+      "serie": "Mass Effect 2"
     }
   },
   {
-    "id": "kelly",
-    "name": "Yeoman Kelly Chambers ",
-    "shortDescription": "Asistente personal de Shepard.",
-    "description": "Kelly Chambers sirve como la asistente personal de Shepard aboard the Normandy SR-2, providing administrative support and psychological assessments of the crew.",
-    "imageUrl": "",
+    "id": "kelly", 
+    "name": "Yeoman Kelly Chambers",
+    "shortDescription": "Shepard's personal assistant.",
+    "description": "Kelly Chambers serves as Shepard's personal assistant aboard the Normandy SR-2, providing administrative support and psychological assessments of the crew.",
+    "imageUrl": "../assets/img/kelly.jpg",
     "facts": {
-      "especie": "Humano",
-      "habilidad": "Apoyo administrativo y psicológico",
-      "nave": "Normandía SR-2"
+      "species": "Human",
+      "skill": "Administrative and psychological support",  
+      "serie": "Mass Effect 1"   
     }
   },
   {
     "id": "anderson",
     "name": "Admiral David Anderson",
-    "shortDescription": "Almirante de la Alianza y mentor de Shepard.",
-    "description": "David Anderson es un Almirante de la Alianza y ex Capitán de la primera Normandía. Es mentor y confidente de Shepard, y provee apoyo inquebrantable en la lucha contra los Segadores.",
-    "imageUrl": "",
+    "shortDescription": "Alliance admiral and Shepard's mentor.",
+    "description": "David Anderson is an Alliance admiral and former captain of the first Normandy. He is Shepard's mentor and confidant, providing unwavering support in the fight against the Reapers.",
+    "imageUrl": "../assets/img/anderson.jpg", 
     "facts": {
-      "especie": "Humano",
-      "habilidad": "Liderazgo militar",
-      "lema": "La responsabilidad cae sobre nosotros."
+      "species": "Human",   
+      "skill": "Military leadership",
+      "serie": "Mass Effect 1"
     }
   }
-
 ]
